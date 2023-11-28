@@ -6,8 +6,8 @@ block content
   ul
     each genre in genre_list
       li
-        a(href=grnre.url) #{genre.name}
-        |  (#{genre.date_of_birth} - #{genre.date_of_death})
+        a(href=genre.url) #{genre.name}
+      
 
     else
       li There are no genres.
